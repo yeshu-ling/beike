@@ -1,0 +1,54 @@
+body{
+	background: #EFEFF4 !important;
+}
+.m-message{
+	width: 100%;
+	margin-top: 2.782rem;
+}
+.m-message ul{
+	width: 100%;
+}
+.m-idcard ul li,
+.m-message ul li{
+	width: 100%;
+	color: #3c3c3c;
+	font-size: 0.875rem;
+}
+.m-message ul li:first-child{
+	line-height: 1.875rem;
+}
+.m-message ul li img{
+	width: 1.875rem;
+	height: 1.875rem;
+	margin-right: 1.25rem;
+}
+.m-idcard ul li .texts,
+.m-message ul li .texts{
+	margin-right: 1.25rem;
+	color: #ACACB4;
+}
+/* 身份认证 */
+.m-idcard{
+	width: 100%;
+	margin-top: 1.25rem;
+}
+.m-idcard ul{
+	width: 100%;
+}
+.m-idcard ul::before,
+.m-idcard ul::after{
+	background-color: #FFFFFF;
+}
+.tui{
+	margin: 0 auto;
+	margin-top: 1.25rem;
+	width: 100%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+	font-size: 1rem;
+	background-color: #fff;
+}
+.tui a{
+	color: #007AFF;
+}

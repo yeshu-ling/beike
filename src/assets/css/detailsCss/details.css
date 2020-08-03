@@ -1,0 +1,404 @@
+/* 顶部logo */
+.top-logo{
+	width: 6.25rem;
+	margin-top: 0.625rem;
+}
+.m-dec{
+	margin-top: 0.625rem;
+	width: 100%;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	overflow: hidden;
+	background-color: #fff;
+}
+.m-dec h4{
+	font-size: 1.25rem;
+}
+.m-dec h4 span{
+	float: right;
+	font-weight: 100;
+	font-size: 0.875rem;
+}
+.m-dec h4 span.m-dec-guan{
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 1.25rem;
+}
+.m-dec .m-dec-ul{
+	width: 100%;
+	height: 3rem;
+	padding-left: 0rem;
+}
+.m-dec .m-dec-ul li{
+	width: 24%;
+	border-right: 0.03125rem solid #CCCCCC;
+	margin-right: 1.5625rem;
+}
+.m-dec .m-dec-ul li:last-child{
+	border: none;
+}
+.m-dec .m-dec-ul li p:nth-child(2){
+	color: red;
+	font-size: 1rem;
+	font-weight: 700;
+}
+.m-dec .m-new{
+	width: 100%;
+}
+.m-dec .m-new span{
+	padding: 0.3125rem;
+	padding-top: 0.125rem;
+	padding-bottom: 0.125rem;
+	border-radius: 0.1875rem;
+	margin-right: 1.25rem;
+	color: #0086B3;
+	background-color: #92C2D8;
+}
+.m-dec .m-table{
+	width: 100%;
+}
+.m-dec .m-table li{
+	width: 50%;
+}
+.m-dec .m-table li p{
+	font-size: 1rem;
+}
+.m-dec .m-table li span{
+	color: #3C3C3C;
+}
+.m-dec .m-table li.all{
+	width: 100%;
+}
+.m-dec .m-table li span.fr{
+	color: #007AFF;
+}
+.mui-slider .mui-slider-group .mui-slider-item{
+	height: 250px;
+}
+/* 真实房源 */
+.m-reahouse{
+	width: 100%;
+}
+.m-reahouse .m-reall{
+	width: 100%;
+	background: url(../../img/del_bg-min.jpg) no-repeat;
+	background-size: 25.9375rem 6.25rem;
+	overflow: hidden;
+	padding-left: 1.25rem;
+}
+.m-reahouse .m-reall h3{
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+	color: #3C3C3C;
+	margin-bottom: 0.625rem;
+}
+.m-reahouse .m-reall h3 span{
+	color: #CCCCCC;
+	margin-left: 15px;
+}
+.m-reahouse .m-reall p{
+	color: #3C3C3C;
+}
+.m-reahouse .m-reall p span{
+	margin-left: 0.9375rem;
+	margin-right: 0.3125rem;
+}
+.m-reahouse .m-reall p:nth-of-type(1){
+	line-height: 0.9375rem;
+	margin-bottom: 0.3125rem;
+}
+/* 链家 */
+.m-home{
+	width: 100%;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	height: 5.625rem;
+	background-color: #FFFFFF;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+}
+.m-home .lian-home{
+	width: 100%;
+	height: 100%;
+	border-top: 0.03125rem solid #CCCCCC;
+	border-bottom: 0.03125rem solid #CCCCCC;
+	padding-top: 0.625rem;
+}
+.m-home .lian-home .lian-left{
+	width: 20%;
+	height: 4.375rem;
+}
+.m-home .lian-home .lian-left img{
+	border-radius: 50%;
+	border: 0.0625rem solid #CCCCCC;
+}
+.m-home .lian-home .lian-right{
+	width: 73%;
+	margin-left: 1.25rem;
+	padding-top: 0.625rem;
+	position: relative;
+}
+.m-home .lian-home .lian-right .lian{
+	position: absolute;
+	top: 30%;
+	right: 0.625rem;
+	display: inline-block;
+	color: #CCCCCC;
+	font-size: 1rem;
+}
+/* 位置及周边 */
+.m-posi{
+	width: 100%;
+	height: 12.5rem;
+}
+.m-posi .m-posi-main{
+	width: 100%;
+	background-color: #fff;
+}
+.m-posi .m-posi-main h4{
+	padding-left: 0.9375rem;
+	margin-bottom: 0.9375rem;
+}
+/* 路线 */
+.m-lu{
+	width: 100%;
+}
+.m-lu .m-lu-li span:nth-child(2){
+	font-size: 0.75rem;
+	border: 0.0625rem solid #CCCCCC;
+	padding:0.1875rem 0.3125rem;
+}
+.m-lu .m-lu-li span:nth-child(3){
+	margin-right: 1.25rem;
+}
+.m-lu .m-lu-li::after{
+	height: 0;
+}
+.m-yuan{
+	width: 100%;
+	overflow: hidden;
+	background-color: #FFF;
+}
+.m-yuan h4{
+	padding-left: 0.9375rem;
+	margin-top: 0.625rem;
+	margin-bottom: 0.625rem;
+}
+.m-yuan .m-yuan-ul{
+	width: 100%;
+	padding-left: 1.875rem;
+}
+.m-yuan .m-yuan-ul::before{
+	height: 0;
+}
+.m-yuan .m-yuan-ul li{
+	width: 19%;
+}
+.line-throw{
+	text-decoration: line-through;
+}
+/* 费用详情 */
+.m-fei{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.m-fei .m-fei-main{
+	width: 100%;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	overflow: hidden;
+}
+.m-tui .m-jian-main h4,
+.m-fei .m-fei-main h4{
+	margin-top: 0.625rem;
+	margin-bottom: 0.625rem;
+}
+.m-fei .m-fei-main h4 span{
+	color: #007AFF;
+	font-size: 0.875rem;
+}
+.m-fei .m-fei-main .m-fei-ul{
+	width: 100%;
+	padding-left: 1.25rem;
+}
+.m-fei .m-fei-main .m-fei-ul li{
+	width: 20%;
+}
+.m-fei .m-fei-main .m-fei-ul li p{
+	color: #3C3C3C;
+	line-height: 0.625rem;
+	margin-bottom: 0.1875rem;
+}
+.m-fei .m-fei-main .m-fei-ul li span{
+	color: #CCCCCC;
+	font-size: 0.75rem;
+}
+.m-fei .m-fei-main .m-fei-ul li:nth-child(1) .fet-zi{
+	margin-top: 2.1875rem;
+}
+.m-fei .m-fei-main .m-fei-ul li p:nth-child(3){
+	margin-top: 0.625rem;
+}
+.m-fei .m-fei-main .m-fei-ul li p.red{
+	color: red;
+}
+/* 议价 */
+.m-home .lian-right .m-yi{
+	font-size: 0.9375rem;
+}
+.m-home .lian-right .m-yi-p{
+	font-size: 0.8125rem;
+}
+.m-home .lian-right .kan{
+	font-size: 0.75rem;
+	float: right;
+	position: absolute;
+	top: 1.25rem;
+	right: 0.3125rem;
+	color: #0086B3;
+	font-weight: 600;
+}
+/* 推荐经纪人 */
+.m-tui{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.m-tui .m-jian-main{
+	width: 100%;
+	padding-left: 0.9375rem;
+	overflow: hidden;
+}
+.m-tui .m-jian-main ul{
+	width: 100%;
+}
+.m-tui .m-jian-main ul::before{
+	height: 0;
+}
+.mui-table-view:after{
+	height: 0;
+}
+.m-tui .m-jian-main ul li::after{
+	height: 0;
+}
+.m-tui .m-jian-main ul li img{
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+}
+.m-tui .m-jian-main ul li .m-jian-middle{
+	margin-left: 0.625rem;
+}
+.m-tui .m-jian-main ul li .m-jian-middle h4{
+	margin: 0;
+	font-weight: 600;
+}
+.m-tui .m-jian-main ul li .m-jian-middle h4 span{
+	margin-left: 0.625rem;
+	font-weight: 100;
+}
+.m-tui .m-jian-main ul li .m-jian-right span{
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	color: #0062CC;
+	background-color: lightblue;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+}
+/* 帮我出租 */
+.m-help{
+	width: 100%;
+	background-color: #FFFFFF;
+	
+	margin-bottom:1.25rem;
+}
+.m-help .m-help-main{
+	width: 100%;
+	margin-bottom: 50px;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	background-color: #EEEEEE;
+}
+.m-help ul{
+	width: 100%;
+	margin-top:20px;
+}
+.m-help ul li{
+	width: 100%;
+	text-align: center;
+	background-color: #EEEEEE;
+}
+.m-help ul li .fangyuan{
+	margin-left:50%;
+	transform: translateX(-50%);
+	width: 50%;
+	margin-top: 1.25rem;
+	padding: 0.625rem 1.25rem;
+	border: 1px solid #3c3c3c;
+	border-radius: 1.25rem;
+	color: #3C3C3C;
+	background-color: #FFFFFF;
+}
+.m-help .bian-num{
+	margin-top: 1.25rem;
+	color: #3c3c3c;
+	
+}
+/* 底部咨询 */
+.g-footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	/* justify-content: space-around; */
+	width: 100%;
+	height: 3.125rem;
+	background-color: white;
+	z-index: 1000;
+	
+}
+.g-footer ul{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	padding-left: 10px;
+	margin-top:15px;
+}
+.g-footer ul li:nth-child(1){
+	width: 16%;
+	margin-right: 10px;
+}
+.g-footer ul li:nth-child(2){
+	width: 20%;
+	margin-right: 10px;
+}
+.g-footer ul li:nth-child(3){
+	width: 25%;
+	height: 60%;
+	margin-right: 10px;
+	background-color: orange;
+	text-align: center;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+.g-footer ul li:nth-child(4) a,
+.g-footer ul li:nth-child(3) a{
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.g-footer ul li:nth-child(4){
+	width: 25%;
+	height: 60%;
+	background-color: orangered;
+	margin-right: 0;
+	text-align: center;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+.g-footer ul li a{
+	display: inline-block;
+	text-align: center;
+	font-size: 0.875rem;
+	color: #000000;
+}

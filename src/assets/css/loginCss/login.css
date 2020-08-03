@@ -1,0 +1,118 @@
+.mui-content{
+	background-color: #FFFFFF;
+}
+.mui-table-view:after,
+.mui-table-view::before{
+	background-color: #FFFFFF;
+	height: 0px;
+}
+.mui-bar-nav{
+	position: relative;
+}
+.mui-bar-nav .reject{
+	position: absolute;
+	top: 0.625rem;
+	right: 0.9375rem;
+	font-size: 1rem;
+}
+/* 请输入账号和密码 */
+.m-phone{
+	width: 100%;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	/* background-color: #fff; */
+}
+.m-phone ul{
+	width: 100%;
+	padding-left: 0px;
+}
+.m-phone ul li{
+	width: 100%;
+	height: 3.75rem;
+}
+.mui-table-view-cell:after{
+	width: 92%;
+	right:0.9375rem;
+}
+.m-phone ul li input{
+	border: none;
+}
+.m-phone ul .lastli{
+	height: 4.0625rem;
+}
+.m-phone ul .lastli::after{
+	background-color: #FFFFFF;
+}
+.m-phone ul li .text1{
+	font-size: 0.75rem;
+	line-height: 0.8125rem;
+}
+.m-phone ul li .xieyi{
+	text-align: left;
+	padding-left: 0.625rem;
+	font-size: 0.75rem;
+	line-height: 1.25rem;
+	padding-top: 5px;
+}
+.m-phone ul li .xieyi .gou{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	position: relative;
+
+}
+.m-phone ul li .xieyi .active{
+	background-color:#007AFF
+}
+.m-phone ul li .xieyi .gou .mui-icon-checkmarkempty{
+	position: absolute;
+	top: -3px;
+	left: -2px;
+}
+/* 登录 */
+.m-login{
+	width: 100%;
+	margin-top: 0.625rem;
+}
+.m-login .login{
+	margin: 0 auto;
+	width: 90%;
+	height: 2.5rem;
+	text-align: center;
+	font-size: 1.125rem;
+	line-height: 2.5rem;
+	background-color: #CCCCCC;
+	color: #3C3C3C;
+	border-radius: 0.4375rem;
+}
+.m-login .login1{
+	margin: 0 auto;
+	width: 90%;
+	height: 2.5rem;
+	text-align: center;
+	font-size: 1.125rem;
+	line-height: 2.5rem;
+	background-color: #007AFF;
+	color: #FFFFFF;
+	border-radius: 0.4375rem;
+}
+.mui-table-view-cell.mui-active {
+	background-color: #FFFFFF;
+}
+.m-login ul{
+	width: 100%;
+	padding-left: 0;
+}
+.m-login ul li{
+	height: 1.25rem;
+	width: 50%;
+	text-align: center;
+}
+.m-login ul li a{
+	font-size: 0.75rem;
+	color: #0062CC;
+}

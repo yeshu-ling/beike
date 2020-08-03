@@ -1,0 +1,70 @@
+.m-box{
+	width: 100%;
+	margin-top: 3.125rem;
+}
+.m-box .mui-table-view::before,
+.m-box .mui-table-view::after{
+	background-color: #FFFFFF;
+}
+.mui-table-view-cell.mui-active {
+	background-color: #FFFFFF;
+}
+.m-box ul{
+	width: 100%;
+}
+.m-box ul li{
+	height: 3.75rem;
+}
+.m-box ul li input{
+	border: none;
+}
+.m-box ul .lasttext{
+	height: 8.125rem;
+}
+.m-box ul .lasttext .left{
+	width: 0.9375rem;
+	height: 0.9375rem;
+	border-radius: 50%;
+	border: 0.0625rem solid #CCCCCC;
+	margin-top: 0.3125rem;
+	position: relative;
+}
+.m-box ul .lasttext .active{
+	background-color: #007AFF;
+}
+.m-box ul .lasttext .right{
+	margin-left: 0.3125rem;
+	width: 93%;
+	font-size: 0.75rem;
+	line-height: 0.9375rem;
+	color: #C8C7CC;
+}
+.m-box ul .lasttext .left .mui-icon-checkmarkempty{
+	position: absolute;
+	top: -5px;
+	left: -5px;
+}
+.reject{
+	font-size: 1.125rem;
+	margin: 0 auto;
+	width: 95%;
+	height: 2.5rem;
+	color: #3C3C3C;
+	text-align: center;
+	background-color: #CCCCCC;
+	margin-top: 3.125rem;
+	line-height: 40px;
+	border-radius: 0.4375rem;
+}
+.login-in{
+	font-size: 1.125rem;
+	margin: 0 auto;
+	width: 95%;
+	height: 2.5rem;
+	color: #fff;
+	text-align: center;
+	background-color: #007AFF;
+	margin-top: 3.125rem;
+	line-height: 40px;
+	border-radius: 0.4375rem;
+}

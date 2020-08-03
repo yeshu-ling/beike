@@ -1,0 +1,23 @@
+a{
+	color: #3C3C3C;
+}
+ul{
+	list-style: none;
+}
+body{
+	background-color: #fff;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearboth::after{
+	content:'';
+	overflow: hidden;
+	display: none;
+	width: 0.125rem;
+	height: 0.125rem;
+	clear: both;
+}

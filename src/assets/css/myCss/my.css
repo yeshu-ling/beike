@@ -1,0 +1,250 @@
+.m-top{
+	width: 100%;
+	height: 9.375rem;
+	background-color: #007AFF!important;
+	position: relative;
+	overflow: hidden;
+}
+.m-top .m-name{
+	width: 85%;
+	height: 4.0625rem;
+	/* background-color: red; */
+	margin: 0 auto;
+	margin-top: 4.375rem;
+}
+.m-top .m-name .left{
+	padding-top: 0.625rem;
+	width: 20%;
+	height: 95%;
+	
+}
+#userimg{
+	border-radius: 50%;
+}
+.m-top .m-name .right{
+	margin-left: 0.625rem;
+	padding-top: 0.9375rem;
+	width: 70%;
+	height: 100%;
+}
+.m-top .m-name .right h4{
+	color: #FFFFFF;
+}
+.m-top .m-name .right p{
+	font-size: 0.75rem;
+	line-height: 0.9375rem;
+}
+.m-top .m-name .right p a{
+	color: #FFFFFF;
+}
+.m-top .function{
+	position: absolute;
+	color: #FFFFFF;
+	top: 0.625rem;
+	right: 0.625rem;
+}
+/* 租房信息 */
+.m-zu{
+	width: 100%;
+}
+.m-zu .m-zu-ul::before,
+.m-zu .m-zu-ul::after{
+	background-color: #FFFFFF!important;
+}
+.m-zu .m-zu-ul{
+	width: 100%;
+}
+.m-zu .m-zu-ul .m-zu-li{
+	margin-left: 0.1875rem;
+	width: 20%;
+	text-align: center;
+}
+
+.m-zu .m-zu-ul .m-zu-li a{
+	margin-left: 0.3125rem;
+	text-align: center;
+}
+.m-zu .m-zu-ul .m-zu-li a img{
+	padding-left: 0.3125rem;
+}
+.mui-table-view.mui-grid-view .mui-table-view-cell > a:not(.mui-btn){
+	margin: 0;
+	padding: 0;
+}
+.m-zu .m-zu-ul .m-zu-li a .text{
+	margin-top: 0px;
+	height: 0.9375rem;
+	line-height: 0.9375rem;
+	width: 100%;
+	font-size: 0.75rem;
+	padding-left: 0.3125rem;
+}
+/* 中心图片 */
+.m-big{
+	width: 100%;
+	height: 4.0625rem;
+	background-color: #FFFFFF!important;
+	
+}
+.m-big .m-big-img{
+	width: 90%;
+	margin: 0 auto;
+}
+/* 我的服务 */
+.m-zu{
+	background-color: #FFFFFF!important;
+}
+.m-pay h3,
+.m-user h3,
+.m-help h3,
+.m-zu h3{
+	margin-top: 1.25rem;
+	background-color: #FFFFFF;
+	font-size: 1.125rem;
+	margin-left: 1.25rem;
+}
+.m-zu .m-zu-ul{
+	background-color: #FFFFFF;
+}
+.m-zu .m-zu-ul .m-zu-li a span{
+	margin-top: 0.3125rem;
+	display: inline-block;
+	height: 2.1875rem;
+	font-size: 1.4375rem;
+	font-weight: 600;
+}
+/* 我的房子 */
+.m-help{
+	width: 100%;
+	background-color: #FFFFFF!important;
+	margin-bottom: 1.25rem;
+}
+.m-help .m-body{
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 0.625rem;
+	background-color: #FBF8F5;
+	padding: 1.25rem 0.625rem 0 0.625rem;
+	border: 0.0625rem solid #FAFAFA;
+	border-radius: 0.3125rem;
+	position: relative;
+}
+.m-pay h3,
+.m-user h3,
+.m-help h3{
+	position: relative;
+}
+.m-pay h3 .add,
+.m-user h3 .add,
+.m-help h3 .add{
+	position: absolute;
+	font-weight: 500;
+	font-size: 0.75rem;
+	color: #C8C7CC;
+	top: 0px;
+	right: 0.9375rem;
+}
+.m-help .m-body p{
+	width: 53%;
+	margin-left: 1.25rem;
+	color: #3c3c3c;
+	font-weight: bold;
+	margin-bottom: 0.1875rem;
+}
+.m-help .m-body .textli{
+	font-size: 0.75rem;
+	font-weight: 500;
+}
+.m-help .m-body .rightimg{
+	width: 7.1875rem;
+	height: 6.0625rem;
+	position: absolute;
+	right: 0px;
+	top: 0;
+}
+.m-help .right-now{
+	width: 100%;
+	height: 1.875rem;
+	text-align: center;
+	background-color: #FBF8F5;
+}
+.m-help .right-now .now{
+	display: inline-block;
+	padding-top: 0.3125rem;
+	color: #007AFF;
+	font-weight: bold;
+	letter-spacing: 0.3125rem;
+}
+/* 我是业主 */
+.m-user{
+	width: 100%;
+	margin-bottom: 6.25rem;
+	background-color: #FFFFFF!important;
+}
+.m-user ul{
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+.m-user ul li{
+	width: 30%;
+	height: 100%;
+	margin-left: 0.625rem;
+	background-color: #EAEAEA;
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	border-radius: 0.3125rem;
+}
+.m-user ul li a .text{
+	font-size: 0.875rem;
+	margin-left: 0.3125rem;
+	line-height: 1.25rem;
+	font-weight: 600;
+	letter-spacing: 0.125rem;
+}
+.m-user ul li a .icon{
+	font-size: 1.25rem;
+}
+/* 我的钱包 */
+.m-pay{
+	width: 100%;
+	background-color: #FFFFFF!important;
+	height: 300px;
+}
+.m-pay ul{
+	width: 100%;
+	padding-left: 1.25rem;
+}
+.m-pay ul li{
+	width: 45%;
+	height: 5.625rem;
+	margin-right: 0.9375rem;
+	margin-bottom: 0.3125rem;
+	border: 1px solid #FAFAFA;
+	border-radius: 0.625rem;
+	position: relative;
+}
+.m-pay ul li .m-pay-box{
+	width: 50%;
+	height: 70%;
+	margin-top: 1.25rem;
+	margin-left: 1.25rem;
+}
+.m-pay ul li .m-pay-box h4{
+	font-size: 1rem;
+}
+.m-pay ul li .m-pay-box p{
+	font-size: 0.75rem;
+}
+.m-pay ul li.right01{
+	background: url(../../img/card01.png) no-repeat;
+	background-size: 100% 100%;
+}
+.m-pay ul li.right02{
+	background: url(../../img/card02.png) no-repeat;
+	background-size: 100% 100%;
+}
+.m-pay ul li.right03{
+	background: url(../../img/card03.png) no-repeat;
+	background-size: 100% 100%;
+}

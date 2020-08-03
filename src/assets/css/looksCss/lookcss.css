@@ -1,0 +1,526 @@
+.mui-slider-group .mui-slider-item .m-container{
+	overflow: scroll;
+	margin-bottom: 55px;
+}
+.m-main .mui-scroll{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item{
+	padding: 0 1.1225rem!important;
+}
+.m-main .mui-slider .bigfont{
+	font-size: 1.125rem;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-group .mui-slider-item{
+	border: none;
+}
+.m-pin{
+	margin-top: 0.625rem;
+	padding-top: 0.3125rem;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	padding-bottom: 0.625rem;
+	background-color: #FFFFFF!important;
+}
+.m-pin .pin-top{
+	width: 100%;
+	height: 3.125rem;
+	background-color: #FFFFFF;
+}
+.m-pin .pin-top .pin-top-left{
+	width: 71%;
+	height: 100%;
+	overflow: hidden;
+}
+.m-pin .pin-top .pin-top-left img{
+	width: 2.8125rem;
+	height: 3rem;
+	border-radius: 50%;
+	float: left;
+}
+.m-pin .pin-top .pin-top-left .top-desc{
+	float: left;
+	display: inline-block;
+	width: 70%;
+	height: 100%;
+	padding-left: 0.3125rem;
+
+	/* background-color: red; */
+	
+}
+.m-pin .pin-top .pin-top-left .top-desc h4{
+	font-size: 0.875rem;
+}
+.m-pin .pin-top .pin-top-left .top-desc p{
+	line-height: 1.25rem;
+	font-size: 0.75rem;
+}
+.m-pin .pin-top .pin-top-right{
+	width: 29%;
+	height: 100%;
+	padding-top: 0.3125rem;
+	padding-left: 0px;
+}
+.m-pin .pin-top .pin-top-right span{
+	display: inline-block;
+	text-align: center;
+	line-height: 1.875rem;
+	margin-left: 0.625rem;
+	width: 1.875rem;
+	height: 1.875rem;
+	background-color: lightblue;
+	color: #0062CC;
+	border-radius: 50%;
+}
+.m-pin .pin-middle{
+	background-color: #FFFFFF;
+}
+.m-pin .pin-bottom{
+	background-color: #FFFFFF;
+}
+.m-pin .pin-middle h4{
+	margin-top: 0.625rem;
+	font-size: 0.875rem;
+}
+.m-pin .pin-middle .hu-desc{
+	color: #3C3C3C;
+	font-size: 0.8125rem;
+	line-height: 0.9375rem;
+}
+.m-pin .pin-middle .zuimg{
+	width: 100%;
+	height: 5rem;
+	background-color: #FFFFFF;
+}
+.m-pin .pin-middle .zuimg ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding-left: 0px;
+	margin-top: 0.3125rem;
+}
+.m-pin .pin-middle .zuimg ul li{
+	width: 30%;
+	height: 5rem;
+	position: relative;
+}
+.m-pin .pin-middle .zuimg ul li .zunew,
+.m-pin .pin-middle .zuimg ul li .zutext{
+	position: absolute;
+	font-size: 0.75rem;
+	color: #FFFFFF;
+	background-color: #0062CC;
+	padding-left: 0.3125rem;
+	padding-right: 0.3125rem;
+}
+.m-pin .pin-middle .zuimg ul li .zunew{
+	background-color: red;
+}
+.m-pin .pin-bottom{
+	width: 100%;
+	height: 3.125rem;
+	background-color: #F0F0F0;
+	margin-top: 0.5rem;
+	border-radius: 0.1875rem;
+	padding-left: 0.625rem;
+	/* padding-right: 10px; */
+}
+.m-pin .pin-bottom .pin-bottom-left{
+	width: 75%;
+	height: 100%;
+}
+.m-pin .pin-bottom .pin-bottom-left h4{
+	font-size: 0.9375rem;
+}
+.m-pin .pin-bottom .pin-bottom-left .area{
+	font-size: 0.75rem;
+	color: #3c3c3c;
+	margin-bottom: 0px;
+}
+.m-pin .pin-bottom .pin-bottom-right{
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+.m-pin .pin-bottom .pin-bottom-right .price{
+	position: absolute;
+	top: 45%;
+	transform: translateY(-50%);
+	left: -20px;
+	color: red;
+	line-height: 0.9375rem;
+}
+.m-pin .pin-bottom03{
+	height: 4.375rem;
+}
+.m-pin .pin-bottom03 .pin-bottom-left h4 span.zhu{
+	font-size: 0.75rem;
+	color: #007AFF;
+	padding-left: 0.1875rem;
+	padding-right: 0.1875rem;
+	font-weight: 100;
+	border: 0.03125rem solid lightblue;
+	border-radius: 0.125rem;
+	margin-left: 0.625rem;
+}
+.m-pin .pin-bottom03 .pin-bottom-left .lookhouse{
+	font-size: 0.625rem;
+	color: #0086B3;
+	margin-right: 0.625rem;
+	background-color:#E5E5E5;
+	border-radius: 0.125rem;
+	padding-left: 0.1875rem;
+	padding-right: 0.1875rem;
+}
+.m-botm{
+	width: 100%;
+	height: 3.75rem;
+}
+/* 必看二手 */
+.m-ershou{
+	width: 100%;
+	background-color: #EFEFF4;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	position: relative;
+}
+.m-ershou .er-ttop{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+	margin-top: 0;
+}
+.m-ershou .er-ttop li{
+	width: 33.3%;
+	background-color: #FFFFFF;
+}
+.m-ershou .er-ttop li span:nth-child(2){
+	font-size: 14px;
+}
+/* 上部分 */
+.m-er-main{
+	width: 100%;
+	border: 0.03125rem solid #CCCCCC;
+	border-radius: 0.3125rem;
+	margin-top: 1.25rem;
+	padding-left: 0.03125rem;
+	background-color: #FFFFFF;
+	box-shadow: 3px 0px 5px #cccccc;
+}
+.m-er-main:nth-of-type(1){
+	margin-top: 1.875rem;
+}
+.m-er-main .m-er-main-top{
+	width: 100%;
+	height: 10.625rem;
+}
+.m-er-main .er-top-left{
+	width: 55%;
+	height: 100%;
+	
+}
+.m-er-main .er-top-left img{
+	border-radius: 0.3125rem 0 0 0;
+}
+.m-er-main .er-top-right{
+	width: 45%;
+	height: 100%;
+	/* background-color: red; */
+	line-height: 0;
+}
+.m-er-main .er-top-right img:first-child{
+	border-radius: 0 0.3125rem 0 0;
+	width: 100%;
+}
+.m-er-main .er-top-right img:nth-child(2){
+	width: 100%;
+}
+/* 中心部分 */
+.m-er-main .m-er-main-middle{
+	width: 100%;
+	border-top: 0.03125rem solid #CCCCCC;
+	border-bottom: 0.03125rem solid #CCCCCC;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	background-color: #FFFFFF;
+}
+.m-er-main .m-er-main-middle h4{
+	margin-top: 0.625rem;
+	margin-bottom: 0.625rem;
+}
+.m-er-main .m-er-main-middle h4 .area{
+	color: #C0C0C0;
+	font-size: 0.75rem;
+	margin-left: 0.625rem;
+	font-weight: 100;
+}
+.m-er-main .m-er-main-middle h4 .fr{
+	color: red;
+}
+.m-er-main .m-er-main-middle p{
+	color: #3C3C3C;
+}
+/* 底部经济人信息 */
+.m-er-main-bottom{
+	width: 100%;
+	height: 3.125rem;
+	margin-top: 0.625rem;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	background-color: #FFFFFF;
+	border-radius: 0 0 0.3125rem 0.3125rem;
+}
+.m-er-main-bottom .er-bottom-left{
+	width: 60%;
+	height: 80%;
+}
+.m-er-main-bottom .er-bottom-left .jin{
+	width: 2.5rem!important;
+	height: 2.5rem;
+	border-radius: 50%;
+}
+.m-er-main-bottom .er-bottom-left .bottom-desc{
+	margin-left: 0.625rem;
+}
+.m-er-main-bottom .er-bottom-left .bottom-desc h4{
+	font-size: 0.8125rem;
+}
+.m-er-main-bottom .er-bottom-left .bottom-desc p{
+	font-size: 12px;
+}
+.m-er-main-bottom .er-bottom-right{
+	width: 35%;
+	/* padding-top: 10px; */
+}
+.m-er-main-bottom .er-bottom-right span{
+	display: inline-block;
+	text-align: center;
+	line-height: 2.1875rem;
+	width: 2.1875rem;
+	height: 2.1875rem;
+	/* letter-spacing: 20px; */
+	color: #0062CC;
+	background-color: lightblue;
+	margin-left: 6.5px;
+	border-radius: 50%;
+}
+.m-er-main-bottom .er-bottom-right span:nth-child(2){
+	margin-left: 10px;
+}
+/* 根据浏览过的推荐 */
+.er-tui{
+	margin-top: 20px;
+	width: 100%;
+	height: 12.5rem;
+	/* background-color: red; */
+	
+}
+.er-tui span.circle{
+	float: left;
+	width: 1.25rem;
+	height: 1.25rem;
+	background-color: #0062CC;
+	border-radius: 50%;
+}
+.er-tui span.circle .circleinner{
+	display: block;
+	width: 0.625rem;
+	height: 0.625rem;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	margin-top: 0.3125rem;
+	margin-left: 0.3125rem;
+}
+.er-tui h4{
+	margin-left: 1.875rem;
+	margin-bottom: 0.625rem;
+}
+.er-tui ul{
+	width: 100%;
+	padding-left: 0.3125rem;
+	overflow: hidden;
+}
+.er-tui ul li{
+	width: 30%;
+	height: 11.25rem;
+	margin-right: 0.625rem;
+	border: 0.03125rem solid #CCCCCC;
+	border-radius: 0.3125rem;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+.er-tui ul li:nth-child(1) a .text-bot{
+	margin-bottom: 0;
+}
+.er-tui ul li:last-child{
+	margin-right: 0;
+	
+}
+.er-tui ul li a{
+	width: 100%;
+	text-align: left;
+	
+}
+.er-tui ul li a img{
+	border-radius: 0.3125rem 0.3125rem 0 0;
+	width: 100%;
+}
+.er-tui ul li a h4{
+	padding-left: 0.3125rem;
+	margin-left: 0px;
+	font-size: 0.8125rem;
+	margin-bottom: 0;
+}
+.er-tui ul li a p{
+	font-size: 0.75rem;
+	padding-left: 0.3125rem;
+}
+.er-tui ul li a p .tui-bot{
+	display: inline-block;
+	width: 0.9375rem;
+	height: 0.9375rem;
+	line-height: 0.9375rem;
+	background-color: #0086B3;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 50%;
+}
+.er-tui ul li a .text-bot{
+	color: #0086B3;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 0.625rem;
+}
+/* 发现部分 */
+.m-fa{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.m-fa .fa-logomin{
+	width: 100%;
+	padding: 10px!important;
+	/* padding-left: 1.25rem; */
+}
+.m-fa .fa-logomin .fa-logomin-li{
+	margin-right: 0.5rem;
+}
+.m-fa .fa-logomin .fa-logomin-li a{
+	padding-left: 5px;
+}
+.m-fa .fa-logomin .fa-logomin-li a .mui-media-body{
+	font-size: 0.75rem;
+}
+/* 看点头条 */
+.fa-tou{
+	width: 100%;
+	height: 2.5rem;
+	padding-left: 2.0625rem;
+	padding-right: 1.25rem;
+}
+.fa-tou .fa-tou-left{
+	width:14%;
+}
+.fa-tou .fa-tou-left h3{
+	font-size: 1rem;
+}
+.fa-tou .fa-tou-right{
+	width: 78%;
+	margin-left: 0.625rem;
+}
+.fa-tou .fa-tou-right ul{
+	padding-left: 1.25rem;
+	list-style: disc;
+	margin-top: 0px;
+	margin: 0;
+}
+.fa-tou .fa-tou-right ul .fa-ul-li{
+	margin-top: 0px;
+	font-size: 14px;
+}
+/* 资讯 */
+.fa-zi{
+	width: 100%;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	background-color: #FFFFFF;
+}
+.fa-zi:nth-child(11) .fa-zi-bottom{
+	border-bottom:none;
+}
+/* 资讯头部信息 */
+.fa-zi .fa-zi-top{
+	width: 100%;
+	height: 3.125rem;
+	margin-top: 0.625rem;
+	padding-top: 0.625rem;
+	
+}
+.fa-zi .fa-zi-top .fa-top-left{
+	width: 10%;
+	height: 2.5rem;
+}
+.fa-zi .fa-zi-top .fa-top-left img{
+	border-radius: 50%;
+}
+.fa-zi .fa-zi-top .fa-top-right{
+	width: 85%;
+	margin-left: 0.625rem;
+	/* background-color: red; */
+	position: relative;
+}
+.fa-zi .fa-zi-top .fa-top-right h4{
+	margin-top: 0px;
+}
+.fa-zi .fa-zi-top .fa-top-right p{
+	line-height: 0.9375rem;
+}
+.fa-zi .fa-zi-top .fa-top-right .datatime{
+	position: absolute;
+	top: 10%;
+	right: 0px;
+	font-size: 14px;
+}
+/* 资讯中心部分 */
+.fa-zi .fa-zi-middle{
+	width: 100%;
+	height: 7.5rem;
+	/* background-color: #0062CC; */
+}
+.fa-zi .fa-zi-middle .fa-middle-left{
+	width: 70%;
+	height:85%;
+}
+.fa-zi .fa-zi-middle .fa-middle-left h4{
+	font-size: 0.9375rem;
+	line-height: 1.25rem;
+}
+.fa-zi .fa-zi-middle .fa-middle-right{
+	width: 30%;
+	height: 75%;
+	padding: 0.9375rem;
+	
+}
+.fa-zi .fa-zi-middle .fa-middle-right img{
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #CCCCCC;
+}
+.fa-zi .fa-zi-middle .fa-middle-left p{
+	line-height: 0.9375rem;
+	margin-bottom: 0;
+}
+/* 资讯下部分 */
+.fa-zi .fa-zi-bottom{
+	padding-bottom: 0.625rem;
+	border-bottom: 0.03125rem solid #CCCCCC;
+}
+.fa-zi .fa-zi-bottom .hot{
+	color: #ACACB4;
+	text-align: left;
+	font-size: 14px;
+}

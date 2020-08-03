@@ -1,0 +1,22 @@
+.mui-content .mui-table-view:first-child{
+	margin-top: 0px;
+}
+.mui-content .mui-table-view .mui-message{
+	margin-top: 2.8125rem!important;
+}
+.mui-content .mui-table-view .mui-table-view-cell a img.circle{
+	border-radius: 50%;
+}
+.mui-content .mui-table-view .mui-table-view-cell a .dectimation{
+	font-size: 0.75rem;
+	color: #B6B6B6;
+	background-color:#E9E9E9 ;
+	padding-left: 0.3125rem;
+	padding-right: 0.3125rem;
+	border-radius: 0.1875rem;
+	margin-left: 0.625rem;
+}
+.mui-content .mui-table-view .mui-table-view-cell a .time{
+	font-size: 0.75rem;
+	color: #B6B6B6;
+}
